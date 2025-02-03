@@ -46,7 +46,7 @@ const NavBar = () => {
                         <p className='cursor-pointer hover:text-black'>Orders</p>
                         <p className='cursor-pointer hover:text-black'>Logout</p>
                     </div>
-                </div>
+                </div>           
             </div>
             <Link to='/cart' className='relative'>
                 <img src={assets.cart_icon} className='w-5 min-w-5' alt="Cart" />
