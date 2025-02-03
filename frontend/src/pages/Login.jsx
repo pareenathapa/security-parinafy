@@ -63,7 +63,7 @@ const Login = () => {
           type="text"
           name="name"
           className="w-full px-3 py-2 border border-gray-800"
-          placeholder="Parina Kaji"
+          placeholder="Parina Thapa"
           required
           value={formData.name}
           onChange={handleChange}
@@ -74,7 +74,7 @@ const Login = () => {
         type="email"
         name="email"
         className="w-full px-3 py-2 border border-gray-800"
-        placeholder="aayush@gmail.com"
+        placeholder="parina@gmail.com"
         required
         value={formData.email}
         onChange={handleChange}
