@@ -7,7 +7,7 @@ const addProduct = async (req, res) => {
     const {
       name,
       description,
-      price,
+      price,    
       category,
       subCategory,
       sizes,
