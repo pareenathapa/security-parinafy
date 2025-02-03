@@ -45,7 +45,7 @@ const PlaceOrder = () => {
       }
   ],
   "merchant_username": "merchant_name",
-  "merchant_extra": "merchant_extra"
+  "merchant_extra": "merchant_extra"    
         },
         {
           headers: {
