@@ -10,7 +10,7 @@ const OurPolicy = () => {
             <p className='text-gray-400'>
                 Easy Returns/exchanges within 10 days.
             </p>
-        </div>
+        </div>      
         <div>
             <img src={assets.quality_icon} className='w-12 m-auto mb-3' alt="Exchange" />
             <p className='mb-2 font-semibold'>Our Quality Policy</p>
