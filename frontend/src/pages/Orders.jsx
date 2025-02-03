@@ -11,7 +11,7 @@ const Orders = () => {
       <div className='text-2xl'>
         <Title text1={'YOUR'} text2={'ORDERS'} />
       </div>
-      <div>
+      <div>       
         {
           products.slice(1, 4).map((item, index) => (
             <div key={index} className='flex flex-col gap-4 py-4 text-gray-700 border-t border-b md:flex-row md:items-center md:justify-between'>
