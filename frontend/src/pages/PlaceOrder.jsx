@@ -46,7 +46,7 @@ const PlaceOrder = () => {
   ],
   "merchant_username": "merchant_name",
   "merchant_extra": "merchant_extra"    
-        },
+        },         
         {
           headers: {
             Authorization: "Key aee33c8c07ad4b6bbbcb94452f3a75d2", // Replace with your Khalti secret key
