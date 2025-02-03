@@ -8,7 +8,7 @@ const Cart = () => {
   const { products, currency, cartItems, updateQuantity, navigate } = useContext(ShopContext);
   const [cartData, setCartData] = useState([]);
 
-  useEffect(() => {
+  useEffect(() => {    
     const tempData = [];
     for (const items in cartItems) {
       for (const item in cartItems[items]) {
