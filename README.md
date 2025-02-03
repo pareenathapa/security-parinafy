@@ -1,6 +1,6 @@
-# 🛒 MERN E-Commerce Website
+# 🛒 Parinafy
 
-Welcome to the **MERN E-Commerce Website**! This project is a feature-rich e-commerce application built using the powerful MERN stack, complete with an intuitive user-facing store and an all-encompassing admin dashboard.
+Welcome to the **Parinafy**! This project is a feature-rich e-commerce application built using the powerful MERN stack, complete with an intuitive user-facing store and an all-encompassing admin dashboard.
 
 ## ✨ Features
 
@@ -54,7 +54,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/MenathNDGD/MERN-Ecommerce.git
+git clone https://github.com/pareenathapa/security-parinafy.git
 ```
 
 **Installation**
@@ -80,7 +80,7 @@ VITE_BACKEND_URL = "http://localhost:4000"
 <summary><code>/backend/.env</code></summary>
 
 ```env
-MONGODB_URI =
+MONGODB_URI = mongodb://localhost:27017/parina-db
 
 CLOUDINARY_API_KEY =
 
@@ -88,9 +88,9 @@ CLOUDINARY_SECRET_KEY =
 
 CLOUDINARY_CLOUD_NAME =
 
-JWT_SECRET =
+JWT_SECRET =parinaashajsasjahjash
 
-ADMIN_EMAIL = "admin@trendify.com" #For testing only
+ADMIN_EMAIL = "admin@parinafy.com" #For testing only
 
 ADMIN_PASSWORD = "admin@123" #For testing only
 
@@ -102,7 +102,7 @@ ADMIN_PASSWORD = "admin@123" #For testing only
 <summary><code>/frontend/.env</code></summary>
 
 ```env
-VITE_BACKEND_URL = "http://localhost:4000"
+VITE_BACKEND_URL = "http://localhost:3000"
 ```
 
 </details>
@@ -118,7 +118,7 @@ cd admin
 ```
 
 ```bash
-npm run dev
+npm run start
 ```
 
 **Backend Running On:**
@@ -138,11 +138,11 @@ cd frontend
 ```
 
 ```bash
-npm run dev
+npm run start
 ```
 
 Open [http://localhost:5174](http://localhost:5174) in your browser to view the admin dashboard.
 
 Open [http://localhost:400](http://localhost:400) in your browser to run the backend.
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the frontend project.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the frontend project.
