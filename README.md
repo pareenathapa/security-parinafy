@@ -9,7 +9,7 @@ Welcome to the **Parinafy**! This project is a feature-rich e-commerce applicati
 - **🔒 Secure Authentication**: Register, login, and manage user profiles effortlessly.
 - **🛍️ Product Exploration**: Browse and search through an extensive product catalog with advanced filtering options.
 - **🛒 Shopping Cart**: Add products to your cart, modify quantities, and proceed to a hassle-free checkout.
-- **💳 Seamless Payments**: Make secure payments using Stripe integration.
+- **💳 Seamless Payments**: Make secure payments using Khalti.
 - **📦 Order Management**: View order history, track deliveries, and manage returns with ease.
 
 ### ⚙️ Admin Dashboard:
@@ -25,7 +25,7 @@ Welcome to the **Parinafy**! This project is a feature-rich e-commerce applicati
 - **Express.js**: Fast and minimalistic backend framework.
 - **React.js**: Modern frontend library for building dynamic user interfaces.
 - **Node.js**: JavaScript runtime environment for running the backend.
-- **Stripe**: Integrated payment gateway for processing transactions.
+- **Khalti**: Integrated payment gateway for processing transactions.
 - **JWT**: JSON Web Tokens for secure user sessions.
 
 ## 🗂️ Folder Structure
@@ -82,11 +82,6 @@ VITE_BACKEND_URL = "http://localhost:4000"
 ```env
 MONGODB_URI = mongodb://localhost:27017/parina-db
 
-CLOUDINARY_API_KEY =
-
-CLOUDINARY_SECRET_KEY =
-
-CLOUDINARY_CLOUD_NAME =
 
 JWT_SECRET =parinaashajsasjahjash
 
