@@ -8,7 +8,7 @@ const RelatedProducts = ({category, subCategory}) => {
     const {products} = useContext(ShopContext);
     const [related, setRelated] = useState([]);
 
-    useEffect(() => {
+    useEffect(() => {      
         if (products.length > 0) {
             let productsCopy = products.slice();
             productsCopy = productsCopy.filter((item) => category === item.category);
